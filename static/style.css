@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+* {
+  background: #68717a;
+  font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 93px;
+}
+.heading {
+  display: contents;
+  text-align: center;
+}
+.song {
+  color: rgb(45, 45, 45);
+  background: transparent;
+}
+.lyrics {
+  color: #467fb9;
+  background: transparent;
+}
+.com {
+  color: rgb(45, 45, 45);
+  background: transparent;
+  padding-top: 17px;
+}
+a:hover {
+  color: #467fb9;
+}
+a,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+.lyrics_para {
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1,
+h4 {
+  text-align: center;
+}
+.list-box {
+  border: 1px solid rgb(138, 138, 138);
+  border-radius: 3px;
+  min-width: 30rem;
+  margin-bottom: 2px;
+  padding-left: 5px;
+}
+.list-box:hover {
+  background-color: #467fb9;
+}
+ul {
+  justify-content: center;
+  display: grid;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+.action-btn {
+  border: none;
+  background: none;
+}
+li.current{
+  background-color: chartreuse;
+}
